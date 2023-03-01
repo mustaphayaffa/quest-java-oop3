@@ -59,7 +59,7 @@ public class Penguin extends Bird implements Swim {
             System.out.printf("%s swims upward, depths : %d%n", this.getName(), this.depths);
         }
         
-        return this.depths;
+     return this.depths;
     }
 
     /**
