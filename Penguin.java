@@ -15,11 +15,11 @@ public class Penguin extends Bird implements Swim {
     }
 
     public int getDepths() {
-        return depths;
+        return this.depths;
     }
 
     public boolean isSwimming() {
-        return swimming;
+        return this.swimming;
     }
 
     /**
@@ -71,5 +71,6 @@ public class Penguin extends Bird implements Swim {
         } else {
             System.out.printf("%s is too deep, it can't get out.%n", this.getName());
         }
+        
     }
 }
