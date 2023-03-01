@@ -58,6 +58,7 @@ public class Penguin extends Bird implements Swim {
             this.depths = Math.max(this.depths - meters, 0);
             System.out.printf("%s swims upward, depths : %d%n", this.getName(), this.depths);
         }
+        
         return this.depths;
     }
 
@@ -71,6 +72,6 @@ public class Penguin extends Bird implements Swim {
         } else {
             System.out.printf("%s is too deep, it can't get out.%n", this.getName());
         }
-        
+
     }
 }
